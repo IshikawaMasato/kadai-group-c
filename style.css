@@ -1,0 +1,34 @@
+.contents{
+    background-color: black;
+}
+
+.face{
+    width: 500px;
+    height: 600px;
+}
+.name{
+        padding: 1rem 2rem;
+        color: #fff;
+        background-image: -webkit-linear-gradient(315deg, #704308 0%, #ffce08 40%, #e1ce08 60%, #704308 100%);
+        background-image: linear-gradient(135deg, #704308 0%, #ffce08 40%, #e1ce08 60%, #704308 100%);
+      
+}
+.flex {
+    display: flex; /*横並び*/
+  }
+  .flex .name {
+    margin : 5% 5% 5% 5%;
+    text-align: center;
+    font-size: 70px;
+height:100px;
+width: 400px;
+  }
+
+  .name{
+    color: black;
+  }
+
+  .profile{
+    height: 420px;
+    width: 600px;
+  }
