@@ -11,11 +11,31 @@
 <body>
     <header>岩手県紹介ページ</header>
 
-    <div class="btn-group" role="group" aria-label="Basic button group">
-        <button type="button" class="btn btn-primary"><a href="">・HOME</a></button>
-        <button type="button" class="btn btn-primary"><a href="">・INTRODUCTION</a></button>
-        <button type="button" class="btn btn-primary"><a href="">・WRITER-PAGE</a></button>
-    </div>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse show" id="navbarWithDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  INTRODUCTION
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="food.html">食べ物</a></li>
+                  <li><a class="dropdown-item" href="tourist-spot.html">観光</a></li>
+                  <li><a class="dropdown-item" href="#">自然</a></li>
+                  <li><a class="dropdown-item" href="#">イベント</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="WriterPage.html">WRITER-PAGE</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -25,29 +45,35 @@
     </nav>
 
     <div>自然の紹介ページ</div>
-    <h1>岩手山</h1>
+    <div class="box">
+    <h1 class="introduction-taitol">岩手山</h1>
+    <img src="./img/kadai-index-iwatesann.jpg" class="introduction-img">
     <p>岩手山は、「南部片富士」の名で知られる岩手県の最高峰、標高2,038メートルの秀峰です。</p>
     <p>滝沢市の西北、八幡平国立公園の南西部に大きくすそ野を広げるコニーデ型の山です。有史以来5回の噴火による火山地形は日本でも珍しく、滝沢市からは、四季折々豊かな表情を見せる美しい岩手山の姿を どこからでも眺めることができ、ふるさとの山として愛されています。</p>
     <p>毎年7月1日から始まる夏山シーズンには全国から多くの登山者が訪れ山頂を目指します。山頂付近には標高2,000メートル級の山には珍しい「コマクサ」の群生地があり、そのほかたくさんのきれいな高山植物が登山者を迎えてくれます。</p> 
     <P>山頂からの眺望は、岩木山や八甲田山、遠くは鳥海山を望むことができ360度のパノラマを楽しむことができます。</p>
-    <img src="./img/kadai-index-iwatesann.jpg">
-
-    <h1>浄土ヶ浜</h1>
+    
+    </div>
+    <div class="box">
+    <h1 class="introduction-taitol">浄土ヶ浜</h1>
+    <img src="./img/kadai-index-jyoudogahama.jpg" class="introduction-img">
     <p>三陸復興国立公園・三陸ジオパークの中心に位置する浄土ヶ浜は、宮古の代表的な景勝地です。</p>
     <p>鋭くとがった白い流紋岩が林立し、一つ一つ違った表情を見せて海岸を彩ります。松の緑と岩肌の白、海の群青とのコントラストはまさに一見の価値ありです。</p>
     <p>浄土ヶ浜の地名は、天和年間(1681〜1683)に宮古山常安寺七世の霊鏡竜湖(1727年没)が、「さながら極楽浄土のごとし」と感嘆したことから名付けられたと言われています。</p>
     <p>夏の浄土ヶ浜は、透明度が高く、穏やかな波が特徴で、海開き期間は、たくさんの海水浴客でにぎわいます。</p>
-    <img src="./img/kadai-index-jyoudogahama.jpg">
-
-    <h1>龍泉洞</h1>
+    
+</div>
+<div class="box">
+    <h1 class="introduction-taitol">龍泉洞</h1>
+    <img src="./img/kadai-index-ryuusenndou.jpg" class="introduction-img">
     <p>龍泉洞は日本三大鍾乳洞の一つとされ、また洞内に棲むコウモリと共に国の天然記念物に指定されています。</p>
     <p>洞内総延長は知られている所で4,088mで、そのうち700mが公開中であり、見つかっている地底湖は8つで、そのうち3つが公開中です。</p>
     <p>現在も調査が継続中で未知の部分もまだまだ多く、総延長は5,000m以上ではないかと言われています。</p>
     <p>悠久の時が生んだ芸術品の様な鍾乳石たち。</p>
     <p>世界有数の透明度の目の覚めるような青い地底湖。</p>
     <p>龍泉洞は一度見れば忘れられない感動を味あわせてくれることでしょう。</p>
-    <img src="./img/kadai-index-ryuusenndou.jpg">
     
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
