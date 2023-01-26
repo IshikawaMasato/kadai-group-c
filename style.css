@@ -1,3 +1,119 @@
-img{
-    width: 50%;
+
+
+
+@charset "UTF-8";
+/*ヘッダー(共通)*/
+header{
+background-color: greenyellow;
+height: 150px;
+font-size: 100px;
 }
+
+/*雅音のcss*/
+.masato-introduction{
+    display: flex;
+}
+.akitainu{
+    width: 400px;
+    height: 350px;
+    padding: 50px;
+}
+.box-2 {
+	border: solid 2px #27acd9;
+	padding: 1em;
+    margin: 50px;
+    padding: 50px;
+}
+
+
+/*紹介ぺージcss*/
+.box {
+	border: solid 2px #27acd9;
+	padding: 1em;
+    margin: 100px;
+    padding: 50px;
+}
+
+.introduction-img{
+    height: 300px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.introduction-taitol{
+    margin: 10px;
+}
+
+/*ライターページ*/
+.writer-botan{
+    display:flex;
+  flex-flow: column;
+}
+.button {
+    position: relative;
+    display: inline-block;
+    padding: .5em 4em;
+    border: 2px solid rgb(253, 186, 3);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    transition: .3s;
+    height: 100px;
+    padding: 100px;
+    margin: 20px 100px;
+}
+.button:hover {
+    color: rgb(255, 255, 255);
+}
+.button::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    content: '';
+    background: rgb(252, 202, 1);
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: transform .3s;
+}
+.button:hover::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+.contents{
+    background-color: black;
+}
+
+.face{
+    width: 500px;
+    height: 600px;
+}
+.name{
+        padding: 1rem 2rem;
+        color: #fff;
+        background-image: -webkit-linear-gradient(315deg, #704308 0%, #ffce08 40%, #e1ce08 60%, #704308 100%);
+        background-image: linear-gradient(135deg, #704308 0%, #ffce08 40%, #e1ce08 60%, #704308 100%);
+      
+}
+.flex {
+    display: flex; /*横並び*/
+  }
+  .flex .name {
+    margin : 5% 5% 5% 5%;
+    text-align: center;
+    font-size: 70px;
+height:100px;
+width: 400px;
+  }
+
+  .name{
+    color: black;
+  }
+
+  .profile{
+    height: 420px;
+    width: 600px;
+  }
